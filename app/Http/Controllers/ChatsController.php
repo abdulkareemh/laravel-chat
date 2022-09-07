@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Message;
 use Illuminate\Http\Request;
 use App\Events\MessageSent;
-
+use Illuminate\Support\Facades\Auth;
 class ChatsController extends Controller
 {
    public function __construct()
